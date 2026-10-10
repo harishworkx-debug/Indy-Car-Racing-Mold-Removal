@@ -228,7 +228,7 @@ export default function Home() {
               </div>
               <div className="mt-8">
                 <Link
-                  to="/services/residential-mold-assessment"
+                  to="/residential-mold-assessment"
                   className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:gap-3 transition-all"
                 >
                   Explore Residential Mold Assessment
@@ -268,7 +268,7 @@ export default function Home() {
               </div>
               <div className="mt-8">
                 <Link
-                  to="/services/commercial-mold-remediation"
+                  to="/commercial-mold-remediation"
                   className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:gap-3 transition-all"
                 >
                   Understand Commercial Mold Remediation
@@ -328,7 +328,7 @@ export default function Home() {
               </div>
               <div className="mt-8">
                 <Link
-                  to="/services/basement-mold-inspection"
+                  to="/basement-mold-inspection"
                   className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:gap-3 transition-all"
                 >
                   Explore Basement Mold Inspection
@@ -367,7 +367,7 @@ export default function Home() {
               </div>
               <div className="mt-8">
                 <Link
-                  to="/services/mold-affected-drywall-assessment"
+                  to="/mold-affected-drywall-assessment"
                   className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:gap-3 transition-all"
                 >
                   Understand Drywall Assessment
@@ -492,7 +492,7 @@ export default function Home() {
               </div>
               <div className="mt-8">
                 <Link
-                  to="/services/moisture-problem-assessment"
+                  to="/moisture-problem-assessment"
                   className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:gap-3 transition-all"
                 >
                   Explore Moisture Problem Assessment
@@ -650,7 +650,7 @@ export default function Home() {
                 area.
               </p>
               <Link
-                to="/service-areas/indianapolis-in"
+                to="/mold-indianapolis-in"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-teal-700 bg-teal-50 hover:bg-teal-100 transition-all duration-300"
               >
                 Explore Indianapolis Service Area

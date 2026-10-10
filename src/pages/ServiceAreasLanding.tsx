@@ -63,7 +63,7 @@ export default function ServiceAreasLanding() {
                     {location.intro.slice(0, 160)}...
                   </p>
                   <Link
-                    to={`/service-areas/${location.slug}`}
+                    to={`/mold-${location.slug}`}
                     className="inline-flex items-center gap-1 text-teal-600 font-semibold text-sm hover:gap-2 transition-all"
                   >
                     Explore {location.city} Service Area

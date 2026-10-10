@@ -26,7 +26,7 @@ export default function ServiceDetailPage() {
       <SEO
         title={service.metaTitle}
         description={service.metaDescription}
-        canonicalPath={`/services/${service.slug}`}
+        canonicalPath={`/${service.slug}`}
         ogImage={service.heroImage}
         structuredData={[localBusinessData, serviceData, faqData]}
       />
@@ -168,7 +168,7 @@ export default function ServiceDetailPage() {
             {service.relatedServices.map((related) => (
               <Link
                 key={related.slug}
-                to={`/services/${related.slug}`}
+                to={`/${related.slug}`}
                 className="card p-6 group"
               >
                 <h3 className="font-display font-bold text-navy-900 mb-2 group-hover:text-teal-700 transition-colors">

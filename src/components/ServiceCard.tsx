@@ -35,7 +35,7 @@ export default function ServiceCard({
         </h3>
         <p className="text-navy-600 text-sm leading-relaxed mb-4 flex-1">{description}</p>
         <Link
-          to={`/services/${slug}`}
+          to={`/${slug}`}
           className="inline-flex items-center gap-1 text-teal-600 font-semibold text-sm hover:gap-2 transition-all"
         >
           {ctaLabel}

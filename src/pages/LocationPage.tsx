@@ -25,7 +25,7 @@ export default function LocationPage() {
       <SEO
         title={location.metaTitle}
         description={location.metaDescription}
-        canonicalPath={`/service-areas/${location.slug}`}
+        canonicalPath={`/mold-${location.slug}`}
         ogImage={location.heroImage}
         structuredData={[localBusinessData, faqData]}
       />
@@ -121,7 +121,7 @@ export default function LocationPage() {
               remediation work tailored to the specific situation in your property.
             </p>
             <Link
-              to="/services/mold-remediation"
+              to="/mold-remediation"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-teal-700 bg-teal-50 hover:bg-teal-100 transition-all duration-300"
             >
               Explore Mold Remediation
