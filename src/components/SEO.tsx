@@ -39,13 +39,17 @@ export default function SEO({
     ensureMeta('twitter:description', description);
 
     // Canonical
+    const fullCanonicalUrl = canonicalPath.startsWith('http') 
+      ? canonicalPath 
+      : `https://www.moldremoval-speedway.com${canonicalPath.startsWith('/') ? '' : '/'}${canonicalPath}`;
+      
     let canonicalEl = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
     if (!canonicalEl) {
       canonicalEl = document.createElement('link');
       canonicalEl.setAttribute('rel', 'canonical');
       document.head.appendChild(canonicalEl);
     }
-    canonicalEl.setAttribute('href', canonicalPath);
+    canonicalEl.setAttribute('href', fullCanonicalUrl);
 
     // Structured data
     const scriptId = 'page-structured-data';

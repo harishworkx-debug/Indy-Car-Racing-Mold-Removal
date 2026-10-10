@@ -3,4 +3,4 @@ Allow: /
 Allow: /assets/
 Disallow: /404
 
-Sitemap: https://www.example.com/sitemap.xml
+Sitemap: https://www.moldremoval-speedway.com/sitemap.xml

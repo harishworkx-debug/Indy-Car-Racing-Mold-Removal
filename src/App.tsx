@@ -11,6 +11,7 @@ import About from '@/pages/About';
 import Contact from '@/pages/Contact';
 import FAQs from '@/pages/FAQs';
 import NotFound from '@/pages/NotFound';
+import DynamicRouter from '@/pages/DynamicRouter';
 import { BUSINESS } from '@/data/business';
 
 export default function App() {
@@ -27,8 +28,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/faqs" element={<FAQs />} />
-            <Route path="/mold-:slug" element={<LocationPage />} />
-            <Route path="/:slug" element={<ServiceDetailPage />} />
+            <Route path="/:slug" element={<DynamicRouter />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

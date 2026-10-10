@@ -11,7 +11,8 @@ import { getLocalBusinessStructuredData, getFAQStructuredData } from '@/data/str
 
 export default function LocationPage() {
   const { slug } = useParams<{ slug: string }>();
-  const location = slug ? getLocation(slug) : undefined;
+  const actualSlug = slug?.startsWith('mold-inspector-') ? slug.replace('mold-inspector-', '') : slug;
+  const location = actualSlug ? getLocation(actualSlug) : undefined;
 
   if (!location) {
     return <Navigate to="/service-areas" replace />;
@@ -25,7 +26,7 @@ export default function LocationPage() {
       <SEO
         title={location.metaTitle}
         description={location.metaDescription}
-        canonicalPath={`/mold-${location.slug}`}
+        canonicalPath={`/mold-inspector-${location.slug}`}
         ogImage={location.heroImage}
         structuredData={[localBusinessData, faqData]}
       />
@@ -121,7 +122,7 @@ export default function LocationPage() {
               remediation work tailored to the specific situation in your property.
             </p>
             <Link
-              to="/mold-remediation"
+              to="/mold-remediation-indianapolis-in"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-teal-700 bg-teal-50 hover:bg-teal-100 transition-all duration-300"
             >
               Explore Mold Remediation

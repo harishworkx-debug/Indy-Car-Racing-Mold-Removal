@@ -228,7 +228,7 @@ export default function Home() {
               </div>
               <div className="mt-8">
                 <Link
-                  to="/residential-mold-assessment"
+                  to="/residential-mold-assessment-indianapolis-in"
                   className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:gap-3 transition-all"
                 >
                   Explore Residential Mold Assessment
@@ -268,7 +268,7 @@ export default function Home() {
               </div>
               <div className="mt-8">
                 <Link
-                  to="/commercial-mold-remediation"
+                  to="/commercial-mold-remediation-indianapolis-in"
                   className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:gap-3 transition-all"
                 >
                   Understand Commercial Mold Remediation
@@ -328,7 +328,7 @@ export default function Home() {
               </div>
               <div className="mt-8">
                 <Link
-                  to="/basement-mold-inspection"
+                  to="/basement-mold-inspection-indianapolis-in"
                   className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:gap-3 transition-all"
                 >
                   Explore Basement Mold Inspection
@@ -367,7 +367,7 @@ export default function Home() {
               </div>
               <div className="mt-8">
                 <Link
-                  to="/mold-affected-drywall-assessment"
+                  to="/mold-affected-drywall-assessment-indianapolis-in"
                   className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:gap-3 transition-all"
                 >
                   Understand Drywall Assessment
@@ -492,7 +492,7 @@ export default function Home() {
               </div>
               <div className="mt-8">
                 <Link
-                  to="/moisture-problem-assessment"
+                  to="/moisture-problem-assessment-indianapolis-in"
                   className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:gap-3 transition-all"
                 >
                   Explore Moisture Problem Assessment

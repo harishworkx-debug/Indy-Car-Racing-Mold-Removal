@@ -138,15 +138,24 @@ export default function Navbar() {
               <PhoneCTA size="sm" />
             </div>
 
-            {/* Mobile menu button */}
-            <button
-              className="lg:hidden p-2 text-navy-900 hover:bg-navy-50 rounded-lg transition-colors"
-              onClick={() => setMobileOpen(!mobileOpen)}
-              aria-label="Toggle navigation menu"
-              aria-expanded={mobileOpen}
-            >
-              {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
+            <div className="flex items-center gap-2 lg:hidden">
+              <a
+                href={BUSINESS.phoneLink}
+                className="p-2 text-white bg-teal-600 hover:bg-teal-700 rounded-lg transition-colors flex items-center justify-center shadow-sm"
+                aria-label="Call Now"
+              >
+                <Phone className="h-5 w-5" />
+              </a>
+              {/* Mobile menu button */}
+              <button
+                className="p-2 text-navy-900 hover:bg-navy-50 rounded-lg transition-colors"
+                onClick={() => setMobileOpen(!mobileOpen)}
+                aria-label="Toggle navigation menu"
+                aria-expanded={mobileOpen}
+              >
+                {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              </button>
+            </div>
           </div>
         </nav>
 
