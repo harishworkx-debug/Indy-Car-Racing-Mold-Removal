@@ -29,7 +29,7 @@ export const services: ServiceDetail[] = [
     h1: 'Professional Mold Removal Services in Indianapolis',
     metaTitle: 'Mold Removal Indianapolis, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Professional mold removal services in Indianapolis, IN. Our team addresses visible mold and moisture-related problems. Call 463-234-9933.',
+      'Professional mold removal services in Indianapolis, IN. Our team addresses visible mold and moisture-related problems. Call 463-220-1284.',
     heroImage: IMAGES.protectiveGear,
     heroImageAlt:
       'Professional in protective gear performing mold removal treatment indoors using specialized equipment.',
@@ -107,7 +107,7 @@ export const services: ServiceDetail[] = [
     h1: 'Mold Remediation Services in Indianapolis, Indiana',
     metaTitle: 'Mold Remediation Indianapolis, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Comprehensive mold remediation in Indianapolis. We assess, address, and help manage mold and moisture-related concerns. Call 463-234-9933.',
+      'Comprehensive mold remediation in Indianapolis. We assess, address, and help manage mold and moisture-related concerns. Call 463-220-1284.',
     heroImage: IMAGES.renovationPrep,
     heroImageAlt:
       'Worker in protective gear prepping a wall during professional mold remediation work.',
@@ -185,7 +185,7 @@ export const services: ServiceDetail[] = [
     h1: 'Professional Mold Inspection in Indianapolis',
     metaTitle: 'Mold Inspection Indianapolis, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Thorough mold inspection services in Indianapolis. We assess visible mold and moisture conditions to help you understand the situation. Call 463-234-9933.',
+      'Thorough mold inspection services in Indianapolis. We assess visible mold and moisture conditions to help you understand the situation. Call 463-220-1284.',
     heroImage: IMAGES.inspection,
     heroImageAlt:
       'Professional home inspector in safety gear examining a house interior for mold and safety compliance.',
@@ -253,7 +253,7 @@ export const services: ServiceDetail[] = [
     h1: 'Basement Mold Inspection Services in Indianapolis',
     metaTitle: 'Basement Mold Inspection Indianapolis, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Basement mold inspection in Indianapolis. Basements are prone to moisture and mold. Call 463-234-9933 to schedule an assessment.',
+      'Basement mold inspection in Indianapolis. Basements are prone to moisture and mold. Call 463-220-1284 to schedule an assessment.',
     heroImage: IMAGES.cornerInspection,
     heroImageAlt:
       'Worker in safety gear inspecting a basement corner for mold and moisture issues.',
@@ -321,7 +321,7 @@ export const services: ServiceDetail[] = [
     h1: 'Residential Mold Assessment for Indianapolis Homes',
     metaTitle: 'Residential Mold Assessment Indianapolis, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Residential mold assessment for homes in Indianapolis. We evaluate visible mold and moisture conditions in residential properties. Call 463-234-9933.',
+      'Residential mold assessment for homes in Indianapolis. We evaluate visible mold and moisture conditions in residential properties. Call 463-220-1284.',
     heroImage: IMAGES.inspectorWindow,
     heroImageAlt:
       'Inspector in safety vest examining a window area in a home for signs of moisture or mold.',
@@ -389,7 +389,7 @@ export const services: ServiceDetail[] = [
     h1: 'Commercial Mold Remediation in Indianapolis',
     metaTitle: 'Commercial Mold Remediation Indianapolis, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Commercial mold remediation services in Indianapolis for offices, retail, and commercial properties. Call 463-234-9933 to discuss your property.',
+      'Commercial mold remediation services in Indianapolis for offices, retail, and commercial properties. Call 463-220-1284 to discuss your property.',
     heroImage: IMAGES.commercialSpace,
     heroImageAlt:
       'Empty commercial office interior representing a property that may require mold assessment and remediation.',
@@ -457,7 +457,7 @@ export const services: ServiceDetail[] = [
     h1: 'Moisture Problem Assessment in Indianapolis',
     metaTitle: 'Moisture Problem Assessment Indianapolis, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Moisture problem assessment in Indianapolis. We evaluate moisture conditions that can contribute to mold. Call 463-234-9933.',
+      'Moisture problem assessment in Indianapolis. We evaluate moisture conditions that can contribute to mold. Call 463-220-1284.',
     heroImage: IMAGES.wallDamage,
     heroImageAlt:
       'Wall with peeling paint and exposed plaster showing signs of moisture damage.',
@@ -525,7 +525,7 @@ export const services: ServiceDetail[] = [
     h1: 'Mold-Affected Drywall Assessment in Indianapolis',
     metaTitle: 'Mold-Affected Drywall Assessment Indianapolis, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Assessment of mold-affected drywall in Indianapolis. We evaluate drywall for signs of mold and moisture damage. Call 463-234-9933.',
+      'Assessment of mold-affected drywall in Indianapolis. We evaluate drywall for signs of mold and moisture damage. Call 463-220-1284.',
     heroImage: IMAGES.crackDamage,
     heroImageAlt:
       'Cracked plaster wall texture showing surface damage that can be associated with moisture and mold.',
@@ -593,7 +593,7 @@ export const services: ServiceDetail[] = [
     h1: 'Addressing Post-Leak Mold Concerns in Indianapolis',
     metaTitle: 'Post-Leak Mold Concerns Indianapolis, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Concerned about mold after a leak? We assess post-leak mold concerns in Indianapolis properties. Call 463-234-9933.',
+      'Concerned about mold after a leak? We assess post-leak mold concerns in Indianapolis properties. Call 463-220-1284.',
     heroImage: IMAGES.wallDamage,
     heroImageAlt:
       'Wall showing signs of water damage and peeling paint, representing post-leak conditions that may lead to mold.',
@@ -661,7 +661,7 @@ export const services: ServiceDetail[] = [
     h1: 'Mold Remediation Planning in Indianapolis',
     metaTitle: 'Mold Remediation Planning Indianapolis, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Professional mold remediation planning in Indianapolis. We outline the recommended scope based on your property assessment. Call 463-234-9933.',
+      'Professional mold remediation planning in Indianapolis. We outline the recommended scope based on your property assessment. Call 463-220-1284.',
     heroImage: IMAGES.clipboard,
     heroImageAlt:
       'Professional holding a clipboard and checklist, representing the planning phase of mold remediation.',

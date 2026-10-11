@@ -16,7 +16,7 @@ export default function FAQs() {
     <>
       <SEO
         title="FAQs About Mold Remediation | Indy Car Racing Mold Removal Experts"
-        description="Frequently asked questions about mold remediation, inspection, moisture problems, and when to call a professional. Call 463-234-9933 for answers."
+        description="Frequently asked questions about mold remediation, inspection, moisture problems, and when to call a professional. Call 463-220-1284 for answers."
         canonicalPath="/faqs"
         structuredData={faqData}
       />

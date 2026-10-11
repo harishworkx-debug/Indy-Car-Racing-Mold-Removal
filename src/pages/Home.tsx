@@ -38,7 +38,7 @@ export default function Home() {
     <>
       <SEO
         title="Indy Car Racing Mold Removal Experts | Professional Mold Remediation in Indianapolis"
-        description="Professional mold removal and remediation services in Indianapolis, IN. We assess visible mold and moisture-related problems. Call 463-234-9933."
+        description="Professional mold removal and remediation services in Indianapolis, IN. We assess visible mold and moisture-related problems. Call 463-220-1284."
         canonicalPath="/"
         structuredData={[structuredData, faqStructuredData]}
       />

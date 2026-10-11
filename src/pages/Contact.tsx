@@ -13,7 +13,7 @@ export default function Contact() {
     <>
       <SEO
         title="Contact Indy Car Racing Mold Removal Experts | Indianapolis, IN"
-        description="Contact Indy Car Racing Mold Removal Experts at 463-234-9933. Located at 1302 N Main St, Indianapolis, IN 46224. Call us to discuss your mold-related concern."
+        description="Contact Indy Car Racing Mold Removal Experts at 463-220-1284. Located at 1302 N Main St, Indianapolis, IN 46224. Call us to discuss your mold-related concern."
         canonicalPath="/contact"
         structuredData={structuredData}
       />
@@ -21,7 +21,7 @@ export default function Contact() {
       <PageHero
         eyebrow="Contact Us"
         title="Contact Indy Car Racing Mold Removal Experts"
-        description="Call us at 463-234-9933 to discuss your mold-related concern. We are located in Indianapolis, Indiana, and we are here to help."
+        description="Call us at 463-220-1284 to discuss your mold-related concern. We are located in Indianapolis, Indiana, and we are here to help."
         breadcrumbs={[{ label: 'Home', path: '/' }, { label: 'Contact' }]}
         image={IMAGES.hero}
         imageAlt={IMAGES.heroAlt}

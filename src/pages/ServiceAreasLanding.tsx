@@ -14,7 +14,7 @@ export default function ServiceAreasLanding() {
     <>
       <SEO
         title="Service Areas in Indianapolis, IN | Indy Car Racing Mold Removal Experts"
-        description="We serve Indianapolis, Indiana and the surrounding area. Learn about our verified service areas and how we can help with your mold concerns. Call 463-234-9933."
+        description="We serve Indianapolis, Indiana and the surrounding area. Learn about our verified service areas and how we can help with your mold concerns. Call 463-220-1284."
         canonicalPath="/service-areas"
         structuredData={structuredData}
       />

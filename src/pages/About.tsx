@@ -14,7 +14,7 @@ export default function About() {
     <>
       <SEO
         title="About Indy Car Racing Mold Removal Experts | Indianapolis, IN"
-        description="Learn about Indy Car Racing Mold Removal Experts, a locally based mold inspection and remediation business in Indianapolis, Indiana. Call 463-234-9933."
+        description="Learn about Indy Car Racing Mold Removal Experts, a locally based mold inspection and remediation business in Indianapolis, Indiana. Call 463-220-1284."
         canonicalPath="/about"
         structuredData={structuredData}
       />

@@ -8,7 +8,7 @@ export default function NotFound() {
     <>
       <SEO
         title="Page Not Found | Indy Car Racing Mold Removal Experts"
-        description="The page you are looking for does not exist. Please visit our homepage or call 463-234-9933."
+        description="The page you are looking for does not exist. Please visit our homepage or call 463-220-1284."
         canonicalPath="/404"
       />
       <section className="min-h-[60vh] flex items-center bg-navy-50">

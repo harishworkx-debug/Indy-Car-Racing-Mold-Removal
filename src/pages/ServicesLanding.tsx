@@ -16,7 +16,7 @@ export default function ServicesLanding() {
     <>
       <SEO
         title="Mold Remediation Services in Indianapolis | Indy Car Racing Mold Removal Experts"
-        description="Explore our full range of mold inspection, assessment, and remediation services in Indianapolis, IN. Call 463-234-9933 to discuss your concern."
+        description="Explore our full range of mold inspection, assessment, and remediation services in Indianapolis, IN. Call 463-220-1284 to discuss your concern."
         canonicalPath="/services"
         structuredData={structuredData}
       />

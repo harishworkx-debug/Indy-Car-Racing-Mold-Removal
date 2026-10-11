@@ -1,8 +1,8 @@
 export const BUSINESS = {
   name: 'Indy Car Racing Mold Removal Experts',
   shortName: 'Indy Car Racing Mold Removal',
-  phoneDisplay: '463-234-9933',
-  phoneLink: 'tel:4632349933',
+  phoneDisplay: '463-220-1284',
+  phoneLink: 'tel:+14632201284',
   address: {
     street: '1302 N Main St',
     city: 'Indianapolis',
