@@ -22,10 +22,10 @@ export const locations: LocationDetail[] = [
     slug: 'indianapolis-in',
     city: 'Indianapolis',
     state: 'Indiana',
-    h1: 'Mold Removal & Remediation in Indianapolis, Indiana',
-    metaTitle: 'Mold Removal Indianapolis, IN | Indy Car Racing Mold Removal Experts',
+    h1: 'Mold Inspection & Removal in Indianapolis, Indiana',
+    metaTitle: 'Mold Inspector & Removal Indianapolis, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Mold removal and remediation services in Indianapolis, Indiana. Locally based at 1302 N Main St. Call 463-220-1284 for professional mold assessment.',
+      'Mold inspection, assessment, and removal services in Indianapolis, Indiana. Locally based at 1302 N Main St. Call 463-220-1284 for professional service.',
     heroImage: IMAGES.indianapolisSkyline,
     heroImageAlt:
       'Aerial view of the Indianapolis skyline at sunset, representing the primary service area for mold remediation services.',
@@ -66,10 +66,10 @@ export const locations: LocationDetail[] = [
     slug: 'carmel-in',
     city: 'Carmel',
     state: 'Indiana',
-    h1: 'Mold Removal & Remediation in Carmel, Indiana',
-    metaTitle: 'Mold Removal Carmel, IN | Indy Car Racing Mold Removal Experts',
+    h1: 'Mold Inspection & Removal in Carmel, Indiana',
+    metaTitle: 'Mold Inspector & Removal Carmel, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Mold removal and remediation services in Carmel, Indiana. Professional mold assessment for residential and commercial properties. Call 463-220-1284.',
+      'Mold inspection, assessment, and remediation in Carmel, Indiana. Professional mold services for residential and commercial properties. Call 463-220-1284.',
     heroImage: IMAGES.indianapolisCanal,
     heroImageAlt:
       'View of the central Indiana area representing Carmel, a community north of Indianapolis served for mold remediation.',
@@ -109,10 +109,10 @@ export const locations: LocationDetail[] = [
     slug: 'fishers-in',
     city: 'Fishers',
     state: 'Indiana',
-    h1: 'Mold Removal & Remediation in Fishers, Indiana',
-    metaTitle: 'Mold Removal Fishers, IN | Indy Car Racing Mold Removal Experts',
+    h1: 'Mold Inspection & Removal in Fishers, Indiana',
+    metaTitle: 'Mold Inspector & Removal Fishers, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Mold removal and remediation services in Fishers, Indiana. Professional mold inspection and assessment for local properties. Call 463-220-1284.',
+      'Mold inspection, assessment, and remediation in Fishers, Indiana. Professional mold services for local properties. Call 463-220-1284.',
     heroImage: IMAGES.indianapolisSkyline,
     heroImageAlt:
       'View of the central Indiana region representing Fishers, a community northeast of Indianapolis served for mold remediation.',
@@ -152,10 +152,10 @@ export const locations: LocationDetail[] = [
     slug: 'noblesville-in',
     city: 'Noblesville',
     state: 'Indiana',
-    h1: 'Mold Removal & Remediation in Noblesville, Indiana',
-    metaTitle: 'Mold Removal Noblesville, IN | Indy Car Racing Mold Removal Experts',
+    h1: 'Mold Inspection & Removal in Noblesville, Indiana',
+    metaTitle: 'Mold Inspector & Removal Noblesville, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Mold removal and remediation services in Noblesville, Indiana. Professional mold inspection and assessment. Call 463-220-1284 to discuss your concern.',
+      'Mold inspection, assessment, and removal in Noblesville, Indiana. Professional mold assessment and cleanup. Call 463-220-1284 to discuss your concern.',
     heroImage: IMAGES.indianapolisCanal,
     heroImageAlt:
       'View of the central Indiana area representing Noblesville, a community served for mold remediation services.',
@@ -195,10 +195,10 @@ export const locations: LocationDetail[] = [
     slug: 'greenwood-in',
     city: 'Greenwood',
     state: 'Indiana',
-    h1: 'Mold Removal & Remediation in Greenwood, Indiana',
-    metaTitle: 'Mold Removal Greenwood, IN | Indy Car Racing Mold Removal Experts',
+    h1: 'Mold Inspection & Removal in Greenwood, Indiana',
+    metaTitle: 'Mold Inspector & Removal Greenwood, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Mold removal and remediation services in Greenwood, Indiana. Professional mold inspection and assessment for local properties. Call 463-220-1284.',
+      'Mold inspection, assessment, and removal in Greenwood, Indiana. Professional mold inspection and remediation for local properties. Call 463-220-1284.',
     heroImage: IMAGES.indianapolisSkyline,
     heroImageAlt:
       'View of the central Indiana region representing Greenwood, a community south of Indianapolis served for mold remediation.',
@@ -238,10 +238,10 @@ export const locations: LocationDetail[] = [
     slug: 'plainfield-in',
     city: 'Plainfield',
     state: 'Indiana',
-    h1: 'Mold Removal & Remediation in Plainfield, Indiana',
-    metaTitle: 'Mold Removal Plainfield, IN | Indy Car Racing Mold Removal Experts',
+    h1: 'Mold Inspection & Removal in Plainfield, Indiana',
+    metaTitle: 'Mold Inspector & Removal Plainfield, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Mold removal and remediation services in Plainfield, Indiana. Professional mold inspection and assessment. Call 463-220-1284 to discuss your concern.',
+      'Mold inspection, assessment, and removal in Plainfield, Indiana. Professional mold inspection and remediation. Call 463-220-1284 to discuss your concern.',
     heroImage: IMAGES.indianapolisCanal,
     heroImageAlt:
       'View of the central Indiana area representing Plainfield, a community west of Indianapolis served for mold remediation.',
@@ -281,10 +281,10 @@ export const locations: LocationDetail[] = [
     slug: 'brownsburg-in',
     city: 'Brownsburg',
     state: 'Indiana',
-    h1: 'Mold Removal & Remediation in Brownsburg, Indiana',
-    metaTitle: 'Mold Removal Brownsburg, IN | Indy Car Racing Mold Removal Experts',
+    h1: 'Mold Inspection & Removal in Brownsburg, Indiana',
+    metaTitle: 'Mold Inspector & Removal Brownsburg, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Mold removal and remediation services in Brownsburg, Indiana. Professional mold inspection and assessment for local properties. Call 463-220-1284.',
+      'Mold inspection, assessment, and removal in Brownsburg, Indiana. Professional mold services for local residential properties. Call 463-220-1284.',
     heroImage: IMAGES.indianapolisSkyline,
     heroImageAlt:
       'View of the central Indiana region representing Brownsburg, a community northwest of Indianapolis served for mold remediation.',
@@ -324,10 +324,10 @@ export const locations: LocationDetail[] = [
     slug: 'avon-in',
     city: 'Avon',
     state: 'Indiana',
-    h1: 'Mold Removal & Remediation in Avon, Indiana',
-    metaTitle: 'Mold Removal Avon, IN | Indy Car Racing Mold Removal Experts',
+    h1: 'Mold Inspection & Removal in Avon, Indiana',
+    metaTitle: 'Mold Inspector & Removal Avon, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Mold removal and remediation services in Avon, Indiana. Professional mold inspection and assessment. Call 463-220-1284 to discuss your concern.',
+      'Mold inspection, assessment, and removal in Avon, Indiana. Professional mold assessment and remediation. Call 463-220-1284 to discuss your concern.',
     heroImage: IMAGES.indianapolisCanal,
     heroImageAlt:
       'View of the central Indiana area representing Avon, a community west of Indianapolis served for mold remediation.',
@@ -367,10 +367,10 @@ export const locations: LocationDetail[] = [
     slug: 'zionsville-in',
     city: 'Zionsville',
     state: 'Indiana',
-    h1: 'Mold Removal & Remediation in Zionsville, Indiana',
-    metaTitle: 'Mold Removal Zionsville, IN | Indy Car Racing Mold Removal Experts',
+    h1: 'Mold Inspection & Removal in Zionsville, Indiana',
+    metaTitle: 'Mold Inspector & Removal Zionsville, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Mold removal and remediation services in Zionsville, Indiana. Professional mold inspection and assessment. Call 463-220-1284 to discuss your concern.',
+      'Mold inspection, assessment, and removal in Zionsville, Indiana. Professional mold assessment and remediation. Call 463-220-1284 to discuss your concern.',
     heroImage: IMAGES.indianapolisSkyline,
     heroImageAlt:
       'View of the central Indiana region representing Zionsville, a community northwest of Indianapolis served for mold remediation.',
@@ -410,10 +410,10 @@ export const locations: LocationDetail[] = [
     slug: 'lawrence-in',
     city: 'Lawrence',
     state: 'Indiana',
-    h1: 'Mold Removal & Remediation in Lawrence, Indiana',
-    metaTitle: 'Mold Removal Lawrence, IN | Indy Car Racing Mold Removal Experts',
+    h1: 'Mold Inspection & Removal in Lawrence, Indiana',
+    metaTitle: 'Mold Inspector & Removal Lawrence, IN | Indy Car Racing Mold Removal Experts',
     metaDescription:
-      'Mold removal and remediation services in Lawrence, Indiana. Professional mold inspection and assessment. Call 463-220-1284 to discuss your concern.',
+      'Mold inspection, assessment, and removal in Lawrence, Indiana. Professional mold inspection and remediation services. Call 463-220-1284 to discuss your concern.',
     heroImage: IMAGES.indianapolisCanal,
     heroImageAlt:
       'View of the central Indiana area representing Lawrence, a community on the east side of Indianapolis served for mold remediation.',

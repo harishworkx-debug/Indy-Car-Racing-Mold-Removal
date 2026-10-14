@@ -1,13 +1,20 @@
-import { BUSINESS } from './business';
+import { BUSINESS, IMAGES } from './business';
 
 export function getLocalBusinessStructuredData() {
   return {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+    '@type': ['LocalBusiness', 'HomeAndConstructionBusiness'],
+    '@id': 'https://www.moldremoval-speedway.com/#localbusiness',
     name: BUSINESS.name,
+    legalName: BUSINESS.name,
+    url: 'https://www.moldremoval-speedway.com/',
+    image: IMAGES.hero,
     description:
-      'Professional mold removal and remediation services in Indianapolis, Indiana.',
+      'Professional, direct mold removal, inspection, and remediation services in Speedway, Indianapolis, and surrounding Indiana areas.',
     telephone: BUSINESS.phoneDisplay,
+    priceRange: '$$',
+    currenciesAccepted: 'USD',
+    paymentAccepted: 'Cash, Credit Card, Check, Insurance',
     address: {
       '@type': 'PostalAddress',
       streetAddress: BUSINESS.address.street,
@@ -22,10 +29,43 @@ export function getLocalBusinessStructuredData() {
       longitude: '-86.24408158840433',
     },
     hasMap: BUSINESS.mapsLink,
-    areaServed: {
-      '@type': 'City',
-      name: 'Indianapolis',
-    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: [
+          'Monday',
+          'Tuesday',
+          'Wednesday',
+          'Thursday',
+          'Friday',
+          'Saturday',
+          'Sunday',
+        ],
+        opens: '07:00',
+        closes: '20:00',
+      },
+    ],
+    areaServed: [
+      { '@type': 'City', name: 'Speedway', containedIn: 'Indiana' },
+      { '@type': 'City', name: 'Indianapolis', containedIn: 'Indiana' },
+      { '@type': 'City', name: 'Carmel', containedIn: 'Indiana' },
+      { '@type': 'City', name: 'Fishers', containedIn: 'Indiana' },
+      { '@type': 'City', name: 'Noblesville', containedIn: 'Indiana' },
+      { '@type': 'City', name: 'Greenwood', containedIn: 'Indiana' },
+      { '@type': 'City', name: 'Plainfield', containedIn: 'Indiana' },
+      { '@type': 'City', name: 'Brownsburg', containedIn: 'Indiana' },
+      { '@type': 'City', name: 'Avon', containedIn: 'Indiana' },
+      { '@type': 'City', name: 'Zionsville', containedIn: 'Indiana' },
+      { '@type': 'City', name: 'Lawrence', containedIn: 'Indiana' },
+    ],
+    knowsAbout: [
+      'Mold Removal',
+      'Mold Remediation',
+      'Mold Inspection',
+      'Basement Moisture Assessment',
+      'Commercial Mold Remediation',
+      'Water Leak Mold Assessment',
+    ],
   };
 }
 

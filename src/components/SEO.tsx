@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-
+import { IMAGES } from '@/data/business';
 
 interface SEOProps {
   title: string;
@@ -29,14 +29,17 @@ export default function SEO({
       el.setAttribute('content', content);
     };
 
+    const defaultImage = IMAGES.hero;
     ensureMeta('description', description);
+    ensureMeta('robots', 'index, follow');
     ensureMeta('og:title', title, 'property');
     ensureMeta('og:description', description, 'property');
     ensureMeta('og:type', 'website', 'property');
-    ensureMeta('og:image', ogImage || 'https://bolt.new/static/og_default.png', 'property');
+    ensureMeta('og:image', ogImage || defaultImage, 'property');
     ensureMeta('twitter:card', 'summary_large_image');
     ensureMeta('twitter:title', title);
     ensureMeta('twitter:description', description);
+    ensureMeta('twitter:image', ogImage || defaultImage);
 
     // Canonical
     const fullCanonicalUrl = canonicalPath.startsWith('http') 
