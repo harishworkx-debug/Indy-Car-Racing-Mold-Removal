@@ -246,6 +246,51 @@ export default function About() {
               </div>
             </div>
           </div>
+
+          {/* Quick links to Services and Locations */}
+          <div className="mt-12 bg-navy-50 rounded-2xl p-8 border border-navy-100 max-w-4xl mx-auto">
+            <h3 className="font-display font-bold text-navy-900 text-lg mb-4 text-center">
+              Learn More About Our Mold Remediation Operations
+            </h3>
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              <Link
+                to="/services"
+                className="px-4 py-2 rounded-lg text-sm font-semibold bg-white text-navy-800 hover:text-teal-700 border border-navy-200 shadow-sm transition-colors"
+              >
+                All 10 Mold Services
+              </Link>
+              <Link
+                to="/service-areas"
+                className="px-4 py-2 rounded-lg text-sm font-semibold bg-white text-navy-800 hover:text-teal-700 border border-navy-200 shadow-sm transition-colors"
+              >
+                10 Service Areas
+              </Link>
+              <Link
+                to="/mold-remediation-indianapolis-in"
+                className="px-4 py-2 rounded-lg text-sm font-semibold bg-white text-navy-800 hover:text-teal-700 border border-navy-200 shadow-sm transition-colors"
+              >
+                Mold Remediation
+              </Link>
+              <Link
+                to="/mold-inspection-indianapolis-in"
+                className="px-4 py-2 rounded-lg text-sm font-semibold bg-white text-navy-800 hover:text-teal-700 border border-navy-200 shadow-sm transition-colors"
+              >
+                Mold Inspection
+              </Link>
+              <Link
+                to="/faqs"
+                className="px-4 py-2 rounded-lg text-sm font-semibold bg-white text-navy-800 hover:text-teal-700 border border-navy-200 shadow-sm transition-colors"
+              >
+                Common FAQs
+              </Link>
+              <Link
+                to="/sitemap"
+                className="px-4 py-2 rounded-lg text-sm font-semibold bg-teal-50 text-teal-800 hover:text-teal-900 border border-teal-200 shadow-sm transition-colors"
+              >
+                HTML Sitemap
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 

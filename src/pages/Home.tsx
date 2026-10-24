@@ -24,6 +24,7 @@ import GoogleMapEmbed from '@/components/GoogleMapEmbed';
 import FAQAccordion from '@/components/FAQAccordion';
 import { BUSINESS, IMAGES } from '@/data/business';
 import { services } from '@/data/services';
+import { locations } from '@/data/locations';
 import { remediationProcess } from '@/data/process';
 import { generalFaqs } from '@/data/faqs';
 import { getLocalBusinessStructuredData, getFAQStructuredData } from '@/data/structuredData';
@@ -164,12 +165,30 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="text-center mt-10">
+          {/* Direct links to all 10 specialized services */}
+          <div className="mt-10 bg-white rounded-2xl p-6 border border-navy-100 shadow-sm max-w-5xl mx-auto">
+            <h3 className="text-base font-display font-bold text-navy-900 mb-3 text-center">
+              Explore All 10 Specialized Mold Inspection & Remediation Services
+            </h3>
+            <div className="flex flex-wrap items-center justify-center gap-2">
+              {services.map((s) => (
+                <Link
+                  key={s.slug}
+                  to={`/${s.slug}`}
+                  className="px-3.5 py-2 rounded-lg text-xs font-semibold bg-navy-50 text-navy-700 hover:bg-teal-50 hover:text-teal-700 border border-navy-100 hover:border-teal-200 transition-colors"
+                >
+                  {s.title}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="text-center mt-8">
             <Link
               to="/services"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-teal-700 bg-teal-50 hover:bg-teal-100 transition-all duration-300"
             >
-              View All Services
+              View Full Services Directory
               <ArrowRight className="h-5 w-5" />
             </Link>
           </div>
@@ -626,11 +645,11 @@ export default function Home() {
               Verified Service Areas Around Indianapolis
             </h2>
             <p className="text-navy-600 text-lg">
-              We are based in Indianapolis, Indiana, and serve the local area.
+              We are based in Indianapolis, Indiana, and provide trusted mold inspection and remediation throughout Marion County and central Indiana.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-4xl mx-auto mb-12">
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img
                 src={IMAGES.indianapolisSkyline}
@@ -641,20 +660,50 @@ export default function Home() {
             </div>
             <div>
               <h3 className="font-display font-bold text-navy-900 text-2xl mb-4">
-                Indianapolis, Indiana
+                Indianapolis, Indiana (Primary Location)
               </h3>
               <p className="text-navy-600 leading-relaxed mb-6">
-                As a locally based business, we understand the conditions that
+                As a locally based business at 1302 N Main St, we understand the conditions that
                 Indianapolis properties face throughout the year. From humid summers to wet
-                springs, we are familiar with the moisture and mold concerns common in the
-                area.
+                springs, we are familiar with the moisture and mold concerns common in the area.
               </p>
               <Link
-                to="/mold-indianapolis-in"
+                to="/mold-inspector-indianapolis-in"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-teal-700 bg-teal-50 hover:bg-teal-100 transition-all duration-300"
               >
                 Explore Indianapolis Service Area
                 <ArrowRight className="h-5 w-5" />
+              </Link>
+            </div>
+          </div>
+
+          {/* All 10 Central Indiana Communities */}
+          <div className="max-w-5xl mx-auto bg-white rounded-2xl p-8 shadow-sm border border-navy-100">
+            <h3 className="text-xl font-display font-bold text-navy-900 mb-3 text-center">
+              All 10 Central Indiana Communities We Serve
+            </h3>
+            <p className="text-navy-600 text-sm text-center max-w-2xl mx-auto mb-8">
+              Click on any location below to view local mold inspection details, area moisture patterns, and remediation services:
+            </p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+              {locations.map((loc) => (
+                <Link
+                  key={loc.slug}
+                  to={`/mold-inspector-${loc.slug}`}
+                  className="p-3.5 rounded-xl bg-navy-50 hover:bg-teal-50 border border-navy-100 hover:border-teal-200 text-navy-800 hover:text-teal-700 font-medium text-sm flex items-center justify-between group transition-colors"
+                >
+                  <span>{loc.city}</span>
+                  <ArrowRight className="h-4 w-4 text-teal-500 opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" />
+                </Link>
+              ))}
+            </div>
+            <div className="mt-8 text-center">
+              <Link
+                to="/service-areas"
+                className="inline-flex items-center gap-1.5 text-teal-600 hover:text-teal-700 font-semibold text-sm"
+              >
+                View Complete Service Areas Directory
+                <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
           </div>

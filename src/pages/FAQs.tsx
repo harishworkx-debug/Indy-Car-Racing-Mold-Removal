@@ -67,14 +67,28 @@ export default function FAQs() {
               </a>
             </div>
 
-            {/* Link to services */}
-            <div className="text-center mt-8">
+            {/* Link to services and service areas */}
+            <div className="flex flex-wrap items-center justify-center gap-4 mt-8">
               <Link
                 to="/services"
-                className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:gap-3 transition-all"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold text-teal-700 bg-teal-50 hover:bg-teal-100 transition-all"
               >
-                Explore Our Services
-                <ArrowRight className="h-5 w-5" />
+                Explore All 10 Services
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+              <Link
+                to="/service-areas"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold text-navy-700 bg-navy-50 hover:bg-navy-100 transition-all"
+              >
+                Browse 10 Service Areas
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+              <Link
+                to="/sitemap"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold text-navy-600 hover:text-teal-700 transition-all"
+              >
+                HTML Sitemap
+                <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
           </div>

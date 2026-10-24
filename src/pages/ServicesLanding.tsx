@@ -5,7 +5,7 @@ import PageHero from '@/components/PageHero';
 import ServiceCard from '@/components/ServiceCard';
 import CTASection from '@/components/CTASection';
 import PhoneCTA from '@/components/PhoneCTA';
-import { BUSINESS, IMAGES } from '@/data/business';
+import { IMAGES } from '@/data/business';
 import { services } from '@/data/services';
 import { getLocalBusinessStructuredData } from '@/data/structuredData';
 
@@ -111,8 +111,15 @@ export default function ServicesLanding() {
             </div>
           </div>
 
-          <div className="text-center mt-10">
+          <div className="flex flex-wrap items-center justify-center gap-4 mt-10">
             <PhoneCTA size="lg" />
+            <Link
+              to="/service-areas"
+              className="inline-flex items-center gap-2 px-6 py-4 rounded-lg font-semibold text-navy-800 bg-white border border-navy-200 hover:border-teal-500 hover:text-teal-700 transition-all shadow-sm"
+            >
+              Browse All 10 Service Areas
+              <ArrowRight className="h-5 w-5" />
+            </Link>
           </div>
         </div>
       </section>

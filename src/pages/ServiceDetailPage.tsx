@@ -1,11 +1,12 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { CheckCircle2, ArrowRight, Phone } from 'lucide-react';
+import { CheckCircle2, ArrowRight, Phone, MapPin } from 'lucide-react';
 import SEO from '@/components/SEO';
 import PageHero from '@/components/PageHero';
 import FAQAccordion from '@/components/FAQAccordion';
 import CTASection from '@/components/CTASection';
 import PhoneCTA from '@/components/PhoneCTA';
 import { getService } from '@/data/services';
+import { locations } from '@/data/locations';
 import { getLocalBusinessStructuredData, getServiceStructuredData, getFAQStructuredData } from '@/data/structuredData';
 import { BUSINESS } from '@/data/business';
 
@@ -163,7 +164,15 @@ export default function ServiceDetailPage() {
       {/* Related Services */}
       <section className="section-padding bg-white">
         <div className="container-page">
-          <h2 className="heading-3 text-navy-900 mb-8">Related Services</h2>
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+            <div>
+              <p className="eyebrow mb-2">Explore Related Services</p>
+              <h2 className="heading-3 text-navy-900">Complementary Mold Solutions</h2>
+            </div>
+            <Link to="/services" className="text-teal-600 font-semibold text-sm hover:text-teal-700 flex items-center gap-1">
+              View All 10 Services <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {service.relatedServices.map((related) => (
               <Link
@@ -180,6 +189,47 @@ export default function ServiceDetailPage() {
                 </span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Service Areas for this service */}
+      <section className="section-padding bg-navy-50">
+        <div className="container-page">
+          <div className="max-w-3xl mx-auto text-center mb-10">
+            <div className="inline-flex items-center gap-2 text-teal-600 mb-3">
+              <MapPin className="h-5 w-5" />
+              <span className="eyebrow">Service Coverage</span>
+            </div>
+            <h2 className="heading-3 text-navy-900 mb-4">
+              Communities We Serve with {service.shortTitle}
+            </h2>
+            <p className="text-navy-600">
+              Indy Car Racing Mold Removal Experts provides professional {service.shortTitle.toLowerCase()} across central Indiana. Select your community below to learn more about localized service:
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 max-w-5xl mx-auto">
+            {locations.map((loc) => (
+              <Link
+                key={loc.slug}
+                to={`/mold-inspector-${loc.slug}`}
+                className="p-3.5 rounded-xl bg-white hover:bg-teal-50 border border-navy-100 hover:border-teal-200 text-navy-800 hover:text-teal-700 font-medium text-sm flex items-center justify-between group transition-colors shadow-sm"
+              >
+                <span>{loc.city}, {loc.state}</span>
+                <ArrowRight className="h-4 w-4 text-teal-500 opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" />
+              </Link>
+            ))}
+          </div>
+
+          <div className="mt-8 text-center">
+            <Link
+              to="/service-areas"
+              className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-semibold text-sm"
+            >
+              View All Service Areas & Coverage Details
+              <ArrowRight className="h-4 w-4" />
+            </Link>
           </div>
         </div>
       </section>

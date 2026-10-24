@@ -5,7 +5,8 @@ import PageHero from '@/components/PageHero';
 import FAQAccordion from '@/components/FAQAccordion';
 import CTASection from '@/components/CTASection';
 import PhoneCTA from '@/components/PhoneCTA';
-import { getLocation } from '@/data/locations';
+import { getLocation, locations } from '@/data/locations';
+import { services } from '@/data/services';
 import { BUSINESS } from '@/data/business';
 import { getLocalBusinessStructuredData, getFAQStructuredData } from '@/data/structuredData';
 
@@ -109,25 +110,81 @@ export default function LocationPage() {
         </div>
       </section>
 
-      {/* Primary Service */}
+      {/* Mold Services Available in this Location */}
       <section className="section-padding bg-white">
         <div className="container-page">
-          <div className="max-w-2xl mx-auto text-center">
+          <div className="max-w-3xl mx-auto text-center mb-10">
+            <p className="eyebrow mb-2">Comprehensive Solutions</p>
             <h2 className="heading-3 text-navy-900 mb-4">
-              Mold Removal & Remediation in {location.city}
+              Mold Services Available in {location.city}, IN
             </h2>
-            <p className="text-navy-600 text-lg leading-relaxed mb-8">
-              Our primary service in {location.city} is professional mold assessment and
-              remediation. We evaluate visible mold and moisture conditions, and we perform
-              remediation work tailored to the specific situation in your property.
+            <p className="text-navy-600 leading-relaxed">
+              We provide full-spectrum mold inspection, moisture testing, and remediation services for residential and commercial property owners in {location.city}. Explore any specific service below:
             </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            {services.map((srv) => (
+              <Link
+                key={srv.slug}
+                to={`/${srv.slug}`}
+                className="card p-6 group hover:border-teal-500/50 transition-all"
+              >
+                <h3 className="font-display font-bold text-navy-900 mb-2 group-hover:text-teal-700 transition-colors">
+                  {srv.title}
+                </h3>
+                <p className="text-navy-600 text-sm leading-relaxed mb-4">
+                  {srv.intro.slice(0, 110)}...
+                </p>
+                <span className="inline-flex items-center gap-1 text-teal-600 font-semibold text-sm group-hover:gap-2 transition-all">
+                  Learn About {srv.shortTitle}
+                  <ArrowRight className="h-4 w-4" />
+                </span>
+              </Link>
+            ))}
+          </div>
+
+          <div className="mt-10 text-center">
             <Link
-              to="/mold-remediation-indianapolis-in"
+              to="/services"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-teal-700 bg-teal-50 hover:bg-teal-100 transition-all duration-300"
             >
-              Explore Mold Remediation
+              View Complete Services Guide
               <ArrowRight className="h-5 w-5" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Other Communities We Serve */}
+      <section className="section-padding bg-navy-50 border-t border-navy-100">
+        <div className="container-page">
+          <div className="max-w-3xl mx-auto text-center mb-8">
+            <div className="inline-flex items-center gap-2 text-teal-600 mb-2">
+              <MapPin className="h-5 w-5" />
+              <span className="eyebrow">Central Indiana Coverage</span>
+            </div>
+            <h2 className="heading-3 text-navy-900 mb-3">
+              Other Nearby Communities We Serve
+            </h2>
+            <p className="text-navy-600 text-sm">
+              In addition to {location.city}, Indy Car Racing Mold Removal Experts provides professional mold remediation to surrounding central Indiana areas:
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 max-w-5xl mx-auto">
+            {locations
+              .filter((l) => l.slug !== actualSlug)
+              .map((otherLoc) => (
+                <Link
+                  key={otherLoc.slug}
+                  to={`/mold-inspector-${otherLoc.slug}`}
+                  className="p-3.5 rounded-xl bg-white hover:bg-teal-50 border border-navy-100 hover:border-teal-200 text-navy-800 hover:text-teal-700 font-medium text-sm flex items-center justify-between group transition-colors shadow-sm"
+                >
+                  <span>{otherLoc.city}</span>
+                  <ArrowRight className="h-4 w-4 text-teal-500 opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" />
+                </Link>
+              ))}
           </div>
         </div>
       </section>

@@ -3,162 +3,168 @@
   <!-- Core Authority Pages -->
   <url>
     <loc>https://www.moldremoval-speedway.com/</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/services</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/service-areas</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/about</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/contact</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/faqs</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.moldremoval-speedway.com/sitemap</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <!-- 10 Dedicated Service Pages -->
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-removal-indianapolis-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-remediation-indianapolis-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-inspection-indianapolis-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/basement-mold-inspection-indianapolis-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/residential-mold-assessment-indianapolis-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/commercial-mold-remediation-indianapolis-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/moisture-problem-assessment-indianapolis-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-affected-drywall-assessment-indianapolis-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/post-leak-mold-concerns-indianapolis-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-remediation-planning-indianapolis-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- 10 Targeted Location Pages -->
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-inspector-indianapolis-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-inspector-carmel-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-inspector-fishers-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-inspector-noblesville-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-inspector-greenwood-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-inspector-plainfield-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-inspector-brownsburg-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-inspector-avon-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-inspector-zionsville-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.moldremoval-speedway.com/mold-inspector-lawrence-in</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
