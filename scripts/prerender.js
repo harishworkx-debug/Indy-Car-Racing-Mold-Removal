@@ -70,6 +70,17 @@ for (const route of routes) {
       );
     }
 
+    // Inject Structured Data (JSON-LD) into <head>
+    if (route.structuredData && route.structuredData.length > 0) {
+      const jsonLdTags = route.structuredData
+        .map(
+          (sd) =>
+            `    <script type="application/ld+json">${JSON.stringify(sd)}</script>`
+        )
+        .join('\n');
+      html = html.replace('</head>', `${jsonLdTags}\n  </head>`);
+    }
+
     // Inject rendered HTML into root
     html = html.replace('<div id="root"></div>', `<div id="root">${appHtml}</div>`);
 

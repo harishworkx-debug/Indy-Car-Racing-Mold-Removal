@@ -3,7 +3,13 @@ import { StaticRouter } from 'react-router';
 import { AppRoutes } from './App';
 import { services } from './data/services';
 import { locations } from './data/locations';
+import { generalFaqs } from './data/faqs';
 import { IMAGES } from './data/business';
+import {
+  getLocalBusinessStructuredData,
+  getServiceStructuredData,
+  getFAQStructuredData,
+} from './data/structuredData';
 
 export function render(url: string) {
   return ReactDOMServer.renderToString(
@@ -18,61 +24,77 @@ export interface RouteMeta {
   title: string;
   description: string;
   image?: string;
+  structuredData?: object[];
 }
+
+const localBusinessData = getLocalBusinessStructuredData();
 
 export const routes: RouteMeta[] = [
   {
     path: '/',
-    title: 'Indy Car Racing Mold Removal Experts | Professional Mold Remediation in Indianapolis',
-    description: 'Professional mold removal and remediation services in Indianapolis, IN. We assess visible mold and moisture-related problems. Call 463-220-1284.',
+    title: 'Mold Removal & Inspection in Indianapolis, IN | Indy Car Racing Mold Removal Experts',
+    description: 'Professional mold removal and inspection services in Indianapolis, IN. Non-invasive moisture testing, IICRC S520 remediation, and clear pricing. Call 463-220-1284.',
     image: IMAGES.hero,
+    structuredData: [localBusinessData, getFAQStructuredData(generalFaqs.slice(0, 5))],
   },
   {
     path: '/services',
-    title: 'Mold Remediation Services in Indianapolis | Indy Car Racing Mold Removal Experts',
-    description: 'Explore our full range of mold inspection, assessment, and remediation services in Indianapolis, IN. Call 463-220-1284 to discuss your concern.',
+    title: 'Mold Removal & Inspection Services in Indianapolis, IN | Indy Car Racing Mold Removal Experts',
+    description: 'Explore our full range of 10 specialized mold inspection, assessment, and remediation services in Indianapolis, IN. Call 463-220-1284 for expert assistance.',
     image: IMAGES.hero,
+    structuredData: [localBusinessData],
   },
   {
     path: '/service-areas',
-    title: 'Service Areas in Indianapolis, IN | Indy Car Racing Mold Removal Experts',
-    description: 'We serve Indianapolis, Indiana and the surrounding area. Learn about our verified service areas and how we can help with your mold concerns. Call 463-220-1284.',
+    title: 'Mold Inspection Service Areas in Indianapolis, IN | Indy Car Racing Mold Removal Experts',
+    description: 'Explore mold inspection service areas in Indianapolis, Carmel, Fishers, Noblesville, Greenwood, and central Indiana. Call 463-220-1284 for expert mold services.',
     image: IMAGES.indianapolisSkyline,
+    structuredData: [localBusinessData],
   },
   {
     path: '/about',
-    title: 'About Indy Car Racing Mold Removal Experts | Indianapolis, IN',
-    description: 'Learn about Indy Car Racing Mold Removal Experts, a locally based mold inspection and remediation business in Indianapolis, Indiana. Call 463-220-1284.',
+    title: 'Mold Removal Company in Indianapolis, IN | Indy Car Racing Mold Removal Experts',
+    description: 'Learn about Indy Car Racing Mold Removal Experts, an established mold removal company in Indianapolis, IN. IICRC S520 standards, fully insured, and transparent service policies. Call 463-220-1284.',
     image: IMAGES.clipboard,
+    structuredData: [localBusinessData],
   },
   {
     path: '/contact',
-    title: 'Contact Indy Car Racing Mold Removal Experts | Indianapolis, IN',
-    description: 'Contact Indy Car Racing Mold Removal Experts in Indianapolis, IN. Call 463-220-1284 to discuss your mold-related concern. Located at 1302 N Main St.',
+    title: 'Contact Mold Removal Company in Indianapolis, IN | Indy Car Racing Mold Removal Experts',
+    description: 'Contact our Indianapolis mold removal company at 463-220-1284. Request a quote, consultation, or callback, or visit 1302 N Main St, Indianapolis, IN 46224.',
     image: IMAGES.hero,
+    structuredData: [localBusinessData],
   },
   {
     path: '/faqs',
-    title: 'FAQs About Mold Remediation | Indy Car Racing Mold Removal Experts',
-    description: 'Frequently asked questions about mold remediation, inspection, moisture problems, and when to call a professional. Call 463-220-1284 for answers.',
+    title: 'Mold Removal FAQs | Indy Car Racing Mold Removal Experts',
+    description: 'Frequently asked questions about mold removal, mold inspection, moisture problems, and cost factors in Indianapolis, IN. Call 463-220-1284 for expert answers.',
     image: IMAGES.hero,
+    structuredData: [getFAQStructuredData(generalFaqs)],
   },
   {
     path: '/sitemap',
     title: 'HTML Sitemap | Indy Car Racing Mold Removal Experts',
     description: 'Comprehensive site map of Indy Car Racing Mold Removal Experts. Easily access all our mold inspection, remediation services, and service areas across central Indiana.',
     image: IMAGES.clipboard,
+    structuredData: [localBusinessData],
   },
   ...services.map((s) => ({
     path: `/${s.slug}`,
     title: s.metaTitle,
     description: s.metaDescription,
     image: s.heroImage,
+    structuredData: [
+      localBusinessData,
+      getServiceStructuredData(s.title, s.metaDescription),
+      getFAQStructuredData(s.faqs),
+    ],
   })),
   ...locations.map((l) => ({
     path: `/mold-inspector-${l.slug}`,
     title: l.metaTitle,
     description: l.metaDescription,
     image: l.heroImage,
+    structuredData: [localBusinessData, getFAQStructuredData(l.faqs)],
   })),
 ];

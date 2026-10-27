@@ -15,16 +15,16 @@ export default function FAQs() {
   return (
     <>
       <SEO
-        title="FAQs About Mold Remediation | Indy Car Racing Mold Removal Experts"
-        description="Frequently asked questions about mold remediation, inspection, moisture problems, and when to call a professional. Call 463-220-1284 for answers."
+        title="Mold Removal FAQs | Indy Car Racing Mold Removal Experts"
+        description="Frequently asked questions about mold removal, mold inspection, moisture problems, and cost factors in Indianapolis, IN. Call 463-220-1284 for expert answers."
         canonicalPath="/faqs"
         structuredData={faqData}
       />
 
       <PageHero
         eyebrow="FAQs"
-        title="Frequently Asked Questions"
-        description="Common questions about mold remediation, inspection, and our services. If you have a question that is not answered here, please call us."
+        title="Frequently Asked Questions About Mold Removal"
+        description="Common questions about mold removal, inspection, remediation protocols, and cost factors. If you have a question that is not answered here, please call us."
         breadcrumbs={[{ label: 'Home', path: '/' }, { label: 'FAQs' }]}
         image={IMAGES.hero}
         imageAlt={IMAGES.heroAlt}

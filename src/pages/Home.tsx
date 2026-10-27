@@ -38,8 +38,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Indy Car Racing Mold Removal Experts | Professional Mold Remediation in Indianapolis"
-        description="Professional mold removal and remediation services in Indianapolis, IN. We assess visible mold and moisture-related problems. Call 463-220-1284."
+        title="Mold Removal & Inspection in Indianapolis, IN | Indy Car Racing Mold Removal Experts"
+        description="Professional mold removal and inspection services in Indianapolis, IN. Non-invasive moisture testing, IICRC S520 remediation, and clear pricing. Call 463-220-1284."
         canonicalPath="/"
         structuredData={[structuredData, faqStructuredData]}
       />
@@ -65,7 +65,7 @@ export default function Home() {
             </div>
 
             <h1 className="heading-1 text-white mb-6 animate-fade-in-up">
-              Professional Mold Removal & Remediation in Indianapolis
+              Mold Removal & Inspection in Indianapolis, IN
             </h1>
 
             <p className="text-navy-200 text-lg md:text-xl leading-relaxed mb-8 max-w-xl animate-fade-in-up">
@@ -83,6 +83,30 @@ export default function Home() {
                 Explore Our Services
                 <ArrowRight className="h-5 w-5" />
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Local Trust Badges Bar */}
+      <section className="bg-navy-900 border-y border-navy-800 py-6">
+        <div className="container-page">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
+            <div className="flex flex-col items-center">
+              <span className="font-display font-bold text-teal-400 text-lg">100% Local</span>
+              <span className="text-navy-300 text-xs mt-0.5">Headquartered in Indianapolis</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <span className="font-display font-bold text-teal-400 text-lg">IICRC S520</span>
+              <span className="text-navy-300 text-xs mt-0.5">Industry Standard Protocols</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <span className="font-display font-bold text-teal-400 text-lg">Fully Insured</span>
+              <span className="text-navy-300 text-xs mt-0.5">Liability & Pollution Protection</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <span className="font-display font-bold text-teal-400 text-lg">Upfront Pricing</span>
+              <span className="text-navy-300 text-xs mt-0.5">Clear Written Estimates</span>
             </div>
           </div>
         </div>

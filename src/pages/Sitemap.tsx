@@ -160,8 +160,22 @@ export default function Sitemap() {
             </div>
           </div>
 
+          {/* XML Sitemap vs HTML Sitemap Clarification */}
+          <div className="mt-8 text-center text-xs text-navy-500">
+            <span>Looking for our machine-readable XML index for search engines? View our </span>
+            <a
+              href="https://www.moldremoval-speedway.com/sitemap.xml"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-600 font-semibold underline hover:text-teal-700"
+            >
+              XML Sitemap (sitemap.xml)
+            </a>
+            <span>. This HTML sitemap is maintained as a human-navigable architectural index of our website.</span>
+          </div>
+
           {/* Quick Contact Box */}
-          <div className="mt-12 p-8 bg-navy-950 rounded-2xl text-white flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="mt-8 p-8 bg-navy-950 rounded-2xl text-white flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 rounded-xl bg-teal-600/20 flex items-center justify-center text-teal-400">
                 <Shield className="h-6 w-6" />
